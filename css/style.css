@@ -1,0 +1,96 @@
+:root {
+    --font-family: 'Raleway', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #004bbe;
+    color: white;
+    font-family: var(--font-family)
+}
+header {
+    width: 100rem;
+    height: 20rem;
+    margin: 0 auto;
+    position: relative;
+}
+header img {
+    position: absolute;
+    width: 16rem;
+    top: auto;
+    left: 0;
+    bottom: 2rem;
+}
+header p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+nav ul {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+nav li {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-left: 2rem;
+    padding-bottom: 1rem;
+    width: 8rem;
+    text-align: center;
+}
+nav ul .selected {
+    border-bottom: 5px solid white;
+}
+main {
+    width: 100rem;
+    margin: 0 auto;
+    position: relative;
+}
+main .spoon {
+    position: absolute;
+    width: 100rem;
+    top: 50px;
+}
+main .line {
+    position: absolute;
+    top: 23rem;
+    left: 32rem;
+    width: 20rem;
+}
+main form {
+    position: absolute;
+    width: 48rem;
+    right: 0;
+    top: 25rem;
+    line-height: 5rem;
+    font-size: 2.2rem;
+}
+main form .in {
+    width: 30rem;
+    height: 3rem;
+    border: 0.1rem solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 2.2rem;
+    color: white;
+    margin: 10px 0;
+}
+main form .btn {
+    display: block;
+    width: 18rem;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+    font-family: var(--font-family);
+    font-weight: 600;
+}
